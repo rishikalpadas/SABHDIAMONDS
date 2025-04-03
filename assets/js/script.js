@@ -14,6 +14,40 @@ $(window).on("load", function () {
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".scroll").forEach(link => {
+        link.addEventListener("click", function (event) {
+            let targetID = this.getAttribute("href"); // e.g., "#about" or "index.php#about"
+
+            // If the user is NOT on index.php, redirect to index.php#target
+            if (!window.location.pathname.includes("index.php") && targetID.startsWith("#")) {
+                event.preventDefault(); // Prevent default anchor behavior
+                window.location.href = "index.php" + targetID; // Redirect to index.php#about
+                return;
+            }
+
+            // If already on index.php, smooth scroll instead of reloading
+            let sectionID = targetID.replace("index.php", ""); // Remove index.php if present
+            let target = document.querySelector(sectionID);
+
+            if (target) {
+                event.preventDefault();
+                let targetPosition = target.getBoundingClientRect().top + window.scrollY - 40;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: "smooth"
+                });
+
+                // Update the URL without reloading
+                history.pushState(null, null, targetID);
+            }
+        });
+    });
+});
+
+
+
+
 jQuery(function ($) {
 
     "use strict";
@@ -28,14 +62,17 @@ jQuery(function ($) {
         }
     });
 
-    /* ===================================
-        Nav Scroll
-   ====================================== */
-    $(".scroll").on("click", function(event){
-        event.preventDefault();
-        $('html,body').animate({
-            scrollTop: $(this.hash).offset().top - 40}, 800);
-    });
+//     /* ===================================
+//         Nav Scroll
+//    ====================================== */
+//     $(".scroll").on("click", function(event){
+//         event.preventDefault();
+//         $('html,body').animate({
+//             scrollTop: $(this.hash).offset().top - 40}, 800);
+//     });
+
+
+    
 
     /* ===================================
         WOW Animation

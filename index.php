@@ -1,184 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <!-- Author -->
-    <meta name="author" content="">
-    <!-- description -->
-    <meta name="description" content="">
-    <!-- keywords -->
-    <meta name="keywords" content="">
-    <!-- Page Title -->
-    <title>sabhDiamonds</title>
-    <!-- Favicon -->
-    <link href="assets/favicon.ico" rel="icon">
-    <!-- Bundle -->
-    <link href="assets/css/bundle.min.css" rel="stylesheet">
-    <!-- Plugin Css -->
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/LineIcons.min.css">
-    <!-- Style Sheet -->
-    <link href="assets/css/line-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/custom.css" rel="stylesheet">
-</head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
-
-
-
-    <!-- Start Header -->
-    <header id="home" class="cursor-light">
-        <div class="inner-header nav-icon">
-            <div class="main-navigation">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4 col-lg-2">
-                            <a class="navbar-brand link scroll" href="#home">
-                                <!-- <img src="assets/images/logo.png" alt="logo"> -->
-                                <h3>sabhDiamonds</h3>
-                            </a>
-                        </div>
-                        <div class="col-8 col-lg-10 simple-navbar d-flex align-items-center justify-content-end">
-                            <nav class="navbar navbar-expand-lg">
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <div class="navbar-nav ml-auto d-flex align-items-center">
-                                        <a class="nav-link home active link scroll" href="#home">Home</a>
-                                        <a class="nav-link link scroll" href="#about">About</a>
-                                        <a class="nav-link link scroll" href="#menu">Explore</a>
-                                        <a class="nav-link link scroll" href="#reviews">Blogs</a>
-                                        <a class="nav-link link scroll" href="#blog">Contact Us</a>
-                                        <!-- <a href="" class="btn button btn-medium btn-rounded btn-transparent ml-0 ml-lg-5" data-animation-duration="500" data-fancybox data-src="#animatedModal">Order Now</a> -->
-                                        <span class="menu-line link"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--toggle btn-->
-            <a href="javascript:void(0)" class="sidemenu_btn link" id="sidemenu_toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
-        <!--Side Nav-->
-        <div class="side-menu hidden side-menu-opacity">
-            <div class="bg-overlay"></div>
-            <div class="inner-wrapper">
-                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-                <div class="container">
-                    <div class="row w-100 side-menu-inner-content">
-                        <div class="col-12 d-flex justify-content-center align-items-center text-center">
-                            <a href="index.php" class="navbar-brand"><img src="coffee/images/logo.png" alt="logo"></a>
-                        </div>
-                        <div class="col-12 col-lg-8 text-center text-lg-left">
-                            <nav class="side-nav w-100">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#home">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#menu">Explore</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#reviews">Blogs</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link scroll" href="#blog">Contact Us</a>
-                                    </li>
-                                    <!-- <li class="get-started-btn">
-                                    <a href="" class="btn button btn-medium btn-rounded btn-transparent" data-animation-duration="500" data-fancybox data-src="#animatedModal">Order Now</a>
-                                </li> -->
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-12 col-lg-4 d-flex align-items-center text-center text-lg-left">
-                            <div class="side-footer text-white w-100">
-                                <div class="menu-company-details">
-                                    <span>+1 631 123 4567</span>
-                                    <span>email@website.com</span>
-                                </div>
-                                <ul class="social-icons-simple">
-                                    <li><a class="facebook-text-hvr" href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
-                                    <li><a class="twitter-text-hvr" href="javascript:void(0)"><i class="fab fa-x-twitter"></i> </a> </li>
-                                    <li><a class="youtube-text-hvr" href="javascript:void(0)"><i class="fab fa-youtube"></i> </a> </li>
-                                    <li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
-                                </ul>
-                                <p class="text-white">&copy; 2024 MegaOne. Made With Love by Themesindustry</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a id="close_side_menu" href="javascript:void(0);"></a>
-
-        <!--Get Started Model Popup-->
-        <div class="quote-content hidden animated-modal" id="animatedModal">
-            <!--Heading-->
-            <div class="pb-5 text-center">
-                <span class="text-pink font-weight-200 font-20">We are MegaOne Company</span>
-                <h2 class="main-font font-weight-600 text-sec mt-2">Place your Order Here</h2>
-            </div>
-            <!--Contact Form-->
-            <form class="contact-form" id="modal-contact-form-data">
-                <div class="row">
-                    <!--Result-->
-                    <div class="col-12" id="quote_result"></div>
-
-                    <!--Left Column-->
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required="" type="text">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required="" type="text">
-                        </div>
-                    </div>
-
-                    <!--Right Column-->
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required="" type="email">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Block no" required="" type="text">
-                        </div>
-                    </div>
-
-                    <!--Full Column-->
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea class="form-control" id="userMessage" name="userMessage" placeholder="Please explain your order in detail."></textarea>
-                        </div>
-                    </div>
-
-                    <!--Button-->
-                    <div class="col-md-12">
-                        <div class="form-check">
-                            <label class="checkbox-lable font-weight-200 font-16">Contact by phone is preferred
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <a href="javascript:void(0)" class="btn button btn-medium btn-rounded btn-grey modal_contact_btn" id="quote_submit_btn">Submit Now</a>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </header>
-    <!-- End Header -->
+<?php include('header.php')?>
 
     <!-- Start Slider Section -->
     <section class="slider p-md-0">
@@ -187,7 +7,7 @@
                 <!-- First Slide -->
                 <div class="swiper-slide">
                     <div class="bg-overlay bg-black opacity-4"></div>
-                    <img src="coffee/images/slider-1.jpg" alt="slider">
+                    <img src="assets/images/slider-1.jpg" alt="slider">
                     <div class="container slider-text">
                         <div class="row">
                             <div class="col-12 col-md-6"></div>
@@ -202,7 +22,7 @@
                 <!-- Second Slide -->
                 <div class="swiper-slide">
                     <div class="bg-overlay bg-black opacity-4"></div>
-                    <img src="coffee/images/slider-2.jpg" alt="slider">
+                    <img src="assets/images/slider-2.jpg" alt="slider">
                     <div class="container slider-text">
                         <div class="row">
                             <div class="col-12 col-md-8 col-lg-7 offset-md-2 offset-lg-3 text-center mb-0 mb-md-5">
@@ -216,7 +36,7 @@
                 <!-- Third Slide -->
                 <div class="swiper-slide">
                     <div class="bg-overlay bg-black opacity-4"></div>
-                    <img src="coffee/images/slider-3.jpg" alt="slider">
+                    <img src="assets/images/slider-3.jpg" alt="slider">
                     <div class="container slider-text">
                         <div class="row">
                             <div class="col-12 col-md-6 text-center text-md-left mb-0 mb-md-5">
@@ -249,7 +69,7 @@
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                     <div class="heading-area d-inline-block">
-                        <div class="mb-4"><img src="coffee/images/about-border.png" alt="About-line"></div>
+                        <div class="mb-4"><img src="assets/images/about-border.png" alt="About-line"></div>
                         <h6 class="sub-title alt-font text-sec">Top quality coffee</h6>
                         <h2 class="title main-font text-main my-4">Best Coffee in Town</h2>
                         <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
@@ -295,7 +115,7 @@
                 <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                     <!-- App Image -->
                     <div class="app-image">
-                        <img src="coffee/images/about-img.png" alt="image">
+                        <img src="assets/images/about-img.png" alt="image">
                     </div>
                 </div>
                 <!-- Services 4,5,6 -->
@@ -383,7 +203,7 @@
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
                     <div class="heading-area d-inline-block">
-                        <div class="mb-4"><img src="coffee/images/gallery-border.png" alt="Border"></div>
+                        <div class="mb-4"><img src="assets/images/gallery-border.png" alt="Border"></div>
                         <h6 class="sub-title alt-font text-sec">Top quality coffee</h6>
                         <h2 class="title main-font text-main my-4">Our Coffee Menu</h2>
                         <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
@@ -396,8 +216,8 @@
                 <!-- Menu Item 1 -->
                 <div class="col-md-2 items web">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-1.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-1.jpg" alt="image">
+                        <a href="assets/images/gallery-img-1.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-1.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -411,8 +231,8 @@
                 <!-- Menu Item 2 -->
                 <div class="col-md-8 items web">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-2.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-2.jpg" alt="image">
+                        <a href="assets/images/gallery-img-2.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-2.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -426,8 +246,8 @@
                 <!-- Menu Item 3 -->
                 <div class="col-md-2 items web">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-3.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-3.jpg" alt="image">
+                        <a href="assets/images/gallery-img-3.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-3.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -441,8 +261,8 @@
                 <!-- Menu Item 4 -->
                 <div class="col-md-3 items graphic brand">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-4.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-4.jpg" alt="image">
+                        <a href="assets/images/gallery-img-4.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-4.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -456,8 +276,8 @@
                 <!-- Menu Item 5 -->
                 <div class="col-md-3 items brand">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-5.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-5.jpg" alt="image">
+                        <a href="assets/images/gallery-img-5.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-5.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -471,8 +291,8 @@
                 <!-- Menu Item 6 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-6.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-6.jpg" alt="image">
+                        <a href="assets/images/gallery-img-6.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-6.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -486,8 +306,8 @@
                 <!-- Menu Item 7 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-7.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-7.jpg" alt="image">
+                        <a href="assets/images/gallery-img-7.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-7.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -501,8 +321,8 @@
                 <!-- Menu Item 8 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-8.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-8.jpg" alt="image">
+                        <a href="assets/images/gallery-img-8.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-8.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -516,8 +336,8 @@
                 <!-- Menu Item 9 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-9.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-9.jpg" alt="image">
+                        <a href="assets/images/gallery-img-9.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-9.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -531,8 +351,8 @@
                 <!-- Menu Item 10 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-10.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-10.jpg" alt="image">
+                        <a href="assets/images/gallery-img-10.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-10.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -546,8 +366,8 @@
                 <!-- Menu Item 11 -->
                 <div class="col-md-3 items graphic">
                     <div class="item-img">
-                        <a href="coffee/images/gallery-img-11.jpg" data-fancybox="images">
-                            <img src="coffee/images/gallery-img-11.jpg" alt="image">
+                        <a href="assets/images/gallery-img-11.jpg" data-fancybox="images">
+                            <img src="assets/images/gallery-img-11.jpg" alt="image">
                             <div class="item-img-overlay valign">
                                 <div class="overlay-info text-center">
                                     <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
@@ -569,13 +389,13 @@
                 <!-- Image -->
                 <div class="col-12 col-md-6 wow fadeInLeft order-2 order-md-1 pt-5 pt-md-0" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="reviews-img">
-                        <img src="coffee/images/testimonial-img.png" alt="Testimonial">
+                        <img src="assets/images/testimonial-img.png" alt="Testimonial">
                     </div>
                 </div>
                 <!-- Content -->
                 <div class="col-12 col-md-6 wow fadeInRight order-1 order-md-2" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="heading-area text-center">
-                        <div class="mb-4"><img src="coffee/images/gallery-border.png" alt="About-line"></div>
+                        <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
                         <h2 class="title main-font text-main my-4">Coffee Lovers</h2>
                     </div>
                     <div class="testimonial-carousel">
@@ -584,21 +404,21 @@
                             <div class="item text-center animate-fade">
                                 <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                                <div class="img-holder"><img src="coffee/images/review-1.jpg" alt="Image"></div>
+                                <div class="img-holder"><img src="assets/images/review-1.jpg" alt="Image"></div>
                                 <h4 class="user-name">Sara Williams</h4>
                             </div>
                             <!-- Item-2 -->
                             <div class="item text-center animate-fade">
                                 <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                                <div class="img-holder"><img src="coffee/images/review-2.jpg" alt="Image"></div>
+                                <div class="img-holder"><img src="assets/images/review-2.jpg" alt="Image"></div>
                                 <h4 class="user-name">Steve Smith</h4>
                             </div>
                             <!-- Item-3 -->
                             <div class="item text-center animate-fade">
                                 <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                                <div class="img-holder"><img src="coffee/images/review-3.jpg" alt="Image"></div>
+                                <div class="img-holder"><img src="assets/images/review-3.jpg" alt="Image"></div>
                                 <h4 class="user-name">Mandy Rose</h4>
                             </div>
                         </div>
@@ -617,7 +437,7 @@
                     <span class="d-block alt-font font-weight-normal pb-2">Dec 14, 2023</span>
                     <h2 class="main-font">Coffee Blogs</h2>
                     <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                    <a href="coffee/standalone.html" class="btn button btn-medium btn-rounded btn-transparent mb-5">Read Blog</a>
+                    <a href="blogs.php" class="btn button btn-medium btn-rounded btn-transparent mb-5">Read Blog</a>
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-6 blog-background wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s"></div>
@@ -638,7 +458,7 @@
                 <!-- Form area -->
                 <div class="col-12 col-md-5 pr-md-0 wow fadeInRight order-1 order-md-2" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="heading-area">
-                        <div class="mb-4"><img src="coffee/images/gallery-border.png" alt="Border"></div>
+                        <div class="mb-4"><img src="assets/images/gallery-border.png" alt="Border"></div>
                         <h2 class="title main-font text-main mb-2">Place your order</h2>
                     </div>
                     <!-- Contact Form -->
@@ -669,46 +489,4 @@
     </section>
     <!-- End Contact Section -->
 
-    <!-- Start Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <!--Social-->
-                <div class="col-12 text-center">
-                    <div class="footer-social">
-                        <ul class="list-unstyled social-icons social-icons-simple">
-                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-x-twitter" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-pinterest-p" aria-hidden="true"></i> </a> </li>
-                        </ul>
-                    </div>
-                    <!--Text-->
-                    <p class="company-about fadeIn text-white">&copy; 2024 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer Section -->
-
-    <!-- JavaScript -->
-    <script src="assets/js/bundle.min.js"></script>
-    <!-- Plugin Js -->
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/parallaxie.min.js"></script>
-    <script src="assets/js/jquery.fancybox.min.js"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
-    <script src="assets/js/map.js"></script>
-
-    <!-- CUSTOM JS -->
-    <script src="assets/js/contact_us.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+    <?php include("footer.php")?>
