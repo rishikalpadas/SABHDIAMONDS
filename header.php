@@ -49,9 +49,9 @@
                                     <div class="navbar-nav ml-auto d-flex align-items-center">
                                         <a class="nav-link home active link scroll" href="index.php#home">Home</a>
                                         <a class="nav-link link scroll" href="index.php#about">About</a>
-                                        <a class="nav-link link scroll" href="index.php#menu">Explore</a>
-                                        <a class="nav-link link scroll" href="index.php#reviews">Blogs</a>
-                                        <a class="nav-link link scroll" href="index.php#blog">Contact Us</a>
+                                        <a class="nav-link link scroll" href="index.php#explore">Explore</a>
+                                        <a class="nav-link link scroll" href="index.php#blogs">Blogs</a>
+                                        <a class="nav-link link scroll" href="index.php#contact">Contact Us</a>
                                         <!-- <a href="" class="btn button btn-medium btn-rounded btn-transparent ml-0 ml-lg-5" data-animation-duration="500" data-fancybox data-src="#animatedModal">Order Now</a> -->
                                         <!-- <span class="menu-line link"><i aria-hidden="true" class="fa fa-angle-down"></i></span> -->
                                     </div>
@@ -88,13 +88,13 @@
                                         <a class="nav-link scroll" href="index.php#about">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link scroll" href="index.php#menu">Explore</a>
+                                        <a class="nav-link scroll" href="index.php#explore">Explore</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link scroll" href="index.php#reviews">Blogs</a>
+                                        <a class="nav-link scroll" href="index.php#blogs">Blogs</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link scroll" href="index.php#blog">Contact Us</a>
+                                        <a class="nav-link scroll" href="index.php#contact">Contact Us</a>
                                     </li>
                                     <!-- <li class="get-started-btn">
                                     <a href="" class="btn button btn-medium btn-rounded btn-transparent" data-animation-duration="500" data-fancybox data-src="#animatedModal">Order Now</a>

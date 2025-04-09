@@ -15,7 +15,7 @@
                         </ul>
                     </div>
                     <!--Text-->
-                    <p class="company-about fadeIn text-white">&copy; 2024 sabhDiamonds | All Rights Reserved</p>
+                    <p class="company-about fadeIn text-white">&copy; <?= date("Y") ?> sabhDiamonds | All Rights Reserved</p>
                 </div>
             </div>
         </div>
