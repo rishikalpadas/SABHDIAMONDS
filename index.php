@@ -7,14 +7,14 @@
             <!-- First Slide -->
             <div class="swiper-slide">
                 <div class="bg-overlay bg-black opacity-4"></div>
-                <img src="assets/images/slider-1.jpg" alt="slider">
+                <img src="assets/images/slider/4.png" alt="slider">
                 <div class="container slider-text">
                     <div class="row">
                         <div class="col-12 col-md-6"></div>
                         <div class="col-12 col-md-6 text-center text-md-left mb-0 mb-md-5">
-                            <h1 class="main-font slider-heading">Best in Town <span class="d-block">Coffee House</span></h1>
-                            <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                            <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a>
+                            <h1 class="main-font slider-heading">Sabhdiamonds<span class="d-block">Lab-Grown. Luxury. Limitless.</span></h1>
+                            <!-- <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
+                            <!-- <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a> -->
                         </div>
                     </div>
                 </div>
@@ -22,13 +22,13 @@
             <!-- Second Slide -->
             <div class="swiper-slide">
                 <div class="bg-overlay bg-black opacity-4"></div>
-                <img src="assets/images/slider-2.jpg" alt="slider">
+                <img src="assets/images/slider/1.png" alt="slider">
                 <div class="container slider-text">
                     <div class="row">
                         <div class="col-12 col-md-8 col-lg-7 offset-md-2 offset-lg-3 text-center mb-0 mb-md-5">
-                            <h1 class="main-font slider-heading">Best in Town <span class="d-block">Coffee House</span></h1>
-                            <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                            <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a>
+                            <h1 class="main-font slider-heading">Best-value diamonds <span class="d-block">Supplying businesses, retailers, and individuals</span></h1>
+                            <!-- <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
+                            <!-- <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a> -->
                         </div>
                     </div>
                 </div>
@@ -36,13 +36,13 @@
             <!-- Third Slide -->
             <div class="swiper-slide">
                 <div class="bg-overlay bg-black opacity-4"></div>
-                <img src="assets/images/slider-3.jpg" alt="slider">
+                <img src="assets/images/slider/3.png" alt="slider">
                 <div class="container slider-text">
                     <div class="row">
                         <div class="col-12 col-md-6 text-center text-md-left mb-0 mb-md-5">
-                            <h1 class="main-font slider-heading">Best in Town <span class="d-block">Coffee House</span></h1>
-                            <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                            <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a>
+                            <h1 class="main-font slider-heading">Sustainable & Ethical <span class="d-block">Promoting conflict-free and eco-friendly diamonds.</span></h1>
+                            <!-- <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
+                            <!-- <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a> -->
                         </div>
                         <div class="col-12 col-md-6"></div>
                     </div>
@@ -62,28 +62,56 @@
 </section>
 <!-- End Slider Section-->
 
+<div class="gradient-fader"></div>
+
 
 <!-- Start About Section-->
 
 
-<section class="reviews" id="about">
+<section class="reviews" id="about" style="padding-bottom: 0">
     <div class="container">
         <div class="row align-items-center">
             <!-- Image -->
-            <div class="col-12 col-md-6 wow fadeInLeft order-2 order-md-1 pt-5 pt-md-0" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="col-lg-6 col-md-6 wow fadeInLeft pt-5 pt-md-0 d-flex justify-content-center align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="reviews-img">
-                    <img src="assets/images/testimonial-img.png" alt="Testimonial">
+                    <img src="assets/images/portrait1.png" alt="Testimonial">
                 </div>
             </div>
             <!-- Content -->
-            <div class="col-12 col-md-6 wow fadeInRight order-1 order-md-2" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="heading-area text-center">
                     <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
                     <h2 class="title main-font text-main my-4">About Us</h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, perspiciatis voluptatibus earum labore possimus dolor in consequatur laboriosam voluptas nulla officia provident aut nostrum harum perferendis nam nihil commodi? Impedit, repellendus. Nihil odio cum excepturi dignissimos assumenda quae, in optio suscipit recusandae. Architecto error totam impedit voluptate assumenda saepe ex.</p>
+                <p>SABHDIAMOND was founded with a vision to provide high-quality, lab-grown diamonds at the most competitive prices in the market. With deep expertise in sourcing, cutting, and grading, we ensure that every diamond we offer meets the highest standards of brilliance, clarity, and purity. </p>
 
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews" id="about" style="padding-top: 0">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Text First (Left Side) -->
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="heading-area text-center">
+                    <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
+                    <h2 class="title main-font text-main my-4">Lab-grown Diamonds</h2>
+                </div>
+                <p>
+                    Lab-grown diamonds are scientifically identical to mined diamonds, possessing the same physical, chemical, and optical properties. This material delivers both durability and sheen through its price-competitive and long-lasting characteristics when compared to natural diamonds. Specialized advanced laboratories generate diamonds by employing the CVD and HPHT production methods, which produce ethical diamonds free from mining-related environmental concerns and conflict issues.
+                </p>
+            </div>
+
+            <!-- Image Second (Right Side) -->
+            <div class="col-lg-6 col-md-6 wow fadeInRight d-flex justify-content-center align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="reviews-img">
+                    <img src="assets/images/portrait1.png" alt="Testimonial">
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -91,104 +119,8 @@
 
 <!-- End About Section-->
 
-
-
-<!-- Start About Section -->
-<section class="about" id="explore">
-    <div class="container">
-        <!--Heading-->
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="heading-area d-inline-block">
-                    <div class="mb-4"><img src="assets/images/about-border.png" alt="About-line"></div>
-                    <h6 class="sub-title alt-font text-sec">Top quality coffee</h6>
-                    <h2 class="title main-font text-main my-4">Best Coffee in Town</h2>
-                    <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                </div>
-            </div>
-        </div>
-        <!-- App Detail -->
-        <div class="row align-items-center">
-            <!-- Services 1,2,3 -->
-            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-coffee-cup"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">We are food lovers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-fresh-juice"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Diversity in food</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-emoji-smile"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">100% Free Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- App Slier -->
-            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                <!-- App Image -->
-                <div class="app-image">
-                    <img src="assets/images/about-img.png" alt="image">
-                </div>
-            </div>
-            <!-- Services 4,5,6 -->
-            <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-coffee-cup"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">We are food lovers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-juice"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Diversity in food</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-emoji-smile"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">100% Free Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End About Section -->
-
 <!-- Start Counters Section -->
-<section class="parallax bg-img1">
+<section class="parallax bg-img1" id="explore">
     <div class="container">
         <div class="row">
             <!-- Counter-1 -->
@@ -412,6 +344,100 @@
     </div>
 </section>
 <!-- End Menu Section -->
+
+<!-- Start About Section -->
+<section class="about">
+    <div class="container">
+        <!--Heading-->
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <div class="heading-area d-inline-block">
+                    <div class="mb-4"><img src="assets/images/about-border.png" alt="About-line"></div>
+                    <!-- <h6 class="sub-title alt-font text-sec">Why Choose Us?</h6> -->
+                    <h2 class="title main-font text-main my-4">Why Choose Us?</h2>
+                    <!-- <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
+                </div>
+            </div>
+        </div>
+        <!-- App Detail -->
+        <div class="row align-items-center">
+            <!-- Services 1,2,3 -->
+            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-coffee-cup"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">We are food lovers</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-fresh-juice"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">Diversity in food</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-emoji-smile"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">100% Free Delivery</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- App Slier -->
+            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                <!-- App Image -->
+                <div class="app-image">
+                    <img src="assets/images/about-img.png" alt="image">
+                </div>
+            </div>
+            <!-- Services 4,5,6 -->
+            <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-coffee-cup"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">We are food lovers</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-juice"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">Diversity in food</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="row app-feature">
+                    <div class="col-12 col-lg-2 p-lg-0">
+                        <i class="lni lni-emoji-smile"></i>
+                    </div>
+                    <div class="col-12 col-lg-10 p-lg-0">
+                        <h4 class="mb-3">100% Free Delivery</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->
 
 <!-- Start Reviews Section -->
 <section class="reviews">

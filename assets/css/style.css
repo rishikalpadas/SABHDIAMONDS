@@ -111,7 +111,7 @@ a.image{
     General
 ====================================== */
 
-body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #444444;background: #ffffff;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
+body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #fff;background: #000000;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden; }
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {line-height: 1.2; font-weight: 400; font-family: 'Montserrat', sans-serif;}
 a, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;overflow: hidden;}
@@ -198,7 +198,7 @@ section{padding: 7.5rem 0;}
 .bg-sec{background: #444444;}
 
 /* Text color */
-.text-main {color: #592b1c;}
+.text-main {color: #e1dede;}
 .text-black{color: #202020;}
 .text-white{color: #ffffff;}
 .text-sec{color: #444444;}
@@ -959,6 +959,8 @@ header .main-navigation nav .navbar-nav .nav-link{
     -webkit-align-items: center;
     align-items: center;
     position: relative;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 .swiper-pagination-bullet {
@@ -983,7 +985,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .swiper-slide-active .slider-heading {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: normal;
     opacity: 0;
     animation: fadeUp 1s forwards;
@@ -992,7 +994,7 @@ header .main-navigation nav .navbar-nav .nav-link{
 }
 
 .swiper-slide-active .slider-heading span {
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -1011,6 +1013,9 @@ header .main-navigation nav .navbar-nav .nav-link{
 
 .slider-text .btn, .slider-para, .slider-heading {
     opacity: 0;
+}
+.swiper-slide-active {
+    opacity: 1;
 }
 
 @keyframes fadeUp {
@@ -1146,7 +1151,7 @@ header .main-navigation nav .navbar-nav .nav-link{
     Start Counters
 ====================================== */
 .bg-img1{
-    background-image: url("../images/counter-bg.jpg");
+    background-image: url("../images/stretch.png");
 }
 
 [class*=bg-img]{
@@ -2146,3 +2151,16 @@ header .main-navigation nav .navbar-nav .nav-link{
         font-size: 30px;
     }
 }
+
+.gradient-fader {
+    height: 150px;
+    margin-top: -150px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #000 100%);
+    z-index: 2;
+    position: relative;
+  }
+
+  .img-text-spacing {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
