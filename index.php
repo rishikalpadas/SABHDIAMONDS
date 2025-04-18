@@ -119,46 +119,7 @@
 
 <!-- End About Section-->
 
-<!-- Start Counters Section -->
-<section class="parallax bg-img1" id="explore">
-    <div class="container">
-        <div class="row">
-            <!-- Counter-1 -->
-            <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                <div class="parallax-box text-white">
-                    <i class="lni-coffee-cup" aria-hidden="true"></i>
-                    <h2 class="count">3785</h2>
-                    <h5>Coffee Cups</h5>
-                </div>
-            </div>
-            <!-- Counter-2 -->
-            <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-                <div class="parallax-box text-white">
-                    <i class="lni-emoji-smile" aria-hidden="true"></i>
-                    <h2 class="count">2995</h2>
-                    <h5>Customers</h5>
-                </div>
-            </div>
-            <!-- Counter-3 -->
-            <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
-                <div class="parallax-box text-white">
-                    <i class="lni-coffee-cup" aria-hidden="true"></i>
-                    <h2 class="count">1559</h2>
-                    <h5>Cup of Tea</h5>
-                </div>
-            </div>
-            <!-- Counter-4 -->
-            <div class="col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">
-                <div class="parallax-box text-white">
-                    <i class="lni-investment" aria-hidden="true"></i>
-                    <h2 class="count">1990</h2>
-                    <h5>Since</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Counters Section -->
+
 
 <!-- Start Menu Section -->
 <section class="menu portfolio-three pb-0" style="padding: 1.5rem 0 7.5rem 0">
@@ -366,39 +327,30 @@
                 <!-- Item -->
                 <div class="row app-feature">
                     <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-coffee-cup"></i>
+                        <i class="lni lni-diamonds-1"></i>
                     </div>
                     <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">We are food lovers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                        <h4 class="mb-3">Lowest Prices Guaranteed</h4>
+                        <p>Direct supplier, no middlemen.</p>
                     </div>
                 </div>
                 <!-- Item -->
                 <div class="row app-feature">
                     <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-fresh-juice"></i>
+                        <i class="lni lni-diamonds-1"></i>
                     </div>
                     <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Diversity in food</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                        <h4 class="mb-3">Certified Quality</h4>
+                        <p>IGI & GIA-certified lab-grown diamonds.</p>
                     </div>
                 </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-emoji-smile"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">100% Free Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
+                
             </div>
             <!-- App Slier -->
             <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <!-- App Image -->
                 <div class="app-image">
-                    <img src="assets/images/about-img.png" alt="image">
+                    <img src="assets/images/why2.jpg" alt="image">
                 </div>
             </div>
             <!-- Services 4,5,6 -->
@@ -406,101 +358,83 @@
                 <!-- Item -->
                 <div class="row app-feature">
                     <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-coffee-cup"></i>
+                        <i class="lni lni-diamonds-1"></i>
                     </div>
                     <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">We are food lovers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                        <h4 class="mb-3">Custom Sizing & Cuts</h4>
+                        <p>Tailored to your exact requirements.</p>
                     </div>
                 </div>
                 <!-- Item -->
                 <div class="row app-feature">
                     <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-juice"></i>
+                        <i class="lni lni-diamonds-1"></i>
                     </div>
                     <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Diversity in food</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
+                        <h4 class="mb-3">Ethical & Sustainable</h4>
+                        <p>Eco-friendly and conflict-free diamonds.</p>
                     </div>
                 </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-emoji-smile"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">100% Free Delivery</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
 </section>
 <!-- End About Section -->
 
-<!-- Start Reviews Section -->
-<section class="reviews">
+
+
+<!-- Start Blog Section -->
+<section class="blog py-5" id="blogs">
     <div class="container">
-        <div class="row align-items-center">
-            <!-- Image -->
-            <div class="col-12 col-md-6 wow fadeInLeft order-2 order-md-1 pt-5 pt-md-0" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="reviews-img">
-                    <img src="assets/images/testimonial-img.png" alt="Testimonial">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h2 class="main-font text-white">Latest Blogs</h2>
+                <p class="text-white">Check out our recent blog posts</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Blog Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card blog-card h-100">
+                    <div class="img-wrapper">
+                        <img src="./assets/images/gallery-img-7.jpg" class="card-img-top" alt="Coffee Blog Image 1">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: black; ">Coffee & Creativity</h5>
+                        <a href="blog-detail.php?id=1" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
+                    </div>
                 </div>
             </div>
-            <!-- Content -->
-            <div class="col-12 col-md-6 wow fadeInRight order-1 order-md-2" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="heading-area text-center">
-                    <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
-                    <h2 class="title main-font text-main my-4">Words for Us</h2>
+            <!-- Repeat for Blog Card 2 and 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card blog-card h-100">
+                    <div class="img-wrapper">
+                        <img src="./assets/images/gallery-img-8.jpg" class="card-img-top" alt="Coffee Blog Image 2">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: black; ">Top 5 Coffee Recipes</h5>
+                        <a href="blog-detail.php?id=2" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
+                    </div>
                 </div>
-                <div class="testimonial-carousel">
-                    <div class="testimonial-box owl-carousel owl-theme">
-                        <!-- Item-1 -->
-                        <div class="item text-center animate-fade">
-                            <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                            <!-- <div class="img-holder"><img src="assets/images/review-1.jpg" alt="Image"></div> -->
-                            <h4 class="user-name">Sara Williams</h4>
-                        </div>
-                        <!-- Item-2 -->
-                        <div class="item text-center animate-fade">
-                            <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                            <!-- <div class="img-holder"><img src="assets/images/review-2.jpg" alt="Image"></div> -->
-                            <h4 class="user-name">Steve Smith</h4>
-                        </div>
-                        <!-- Item-3 -->
-                        <div class="item text-center animate-fade">
-                            <div class="icon-holder"><i class="fas fa-quote-right"></i></div>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo.</p>
-                            <!-- <div class="img-holder"><img src="assets/images/review-3.jpg" alt="Image"></div> -->
-                            <h4 class="user-name">Mandy Rose</h4>
-                        </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card blog-card h-100">
+                    <div class="img-wrapper">
+                        <img src="./assets/images/gallery-img-9.jpg" class="card-img-top" alt="Coffee Blog Image 3">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: black; ">Why Coffee is a Mood</h5>
+                        <a href="blog-detail.php?id=3" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End Reviews Section -->
-
-<!-- Start Blog Section -->
-<section class="blog py-0" id="blogs">
-    <div class="row align-items-center">
-        <div class="col-12 col-md-12 col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".8s">
-            <div class="blog-context text-white">
-                <span class="d-block alt-font font-weight-normal pb-2">Dec 14, 2023</span>
-                <h2 class="main-font">Coffee Blogs</h2>
-                <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
-                <a href="blogs.php" class="btn button btn-medium btn-rounded btn-transparent mb-5">Read Blog</a>
-            </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-6 blog-background wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s"></div>
-    </div>
-</section>
 <!-- End Blog Section -->
+
+
 
 <!-- Start Contact Section -->
 <section id="contact">

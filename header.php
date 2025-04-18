@@ -20,7 +20,7 @@
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/LineIcons.min.css">
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
     <!-- Style Sheet -->
     <link href="assets/css/line-awesome.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
