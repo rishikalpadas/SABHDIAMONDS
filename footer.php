@@ -8,8 +8,8 @@
                         <ul class="list-unstyled social-icons social-icons-simple">
                             <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
                             <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-x-twitter" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
-                            <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li>
+                            <!-- <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li> -->
+                            <!-- <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i> </a> </li> -->
                             <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
                             <li><a class="social-icon wow fadeInUp" href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i> </a> </li>
                         </ul>

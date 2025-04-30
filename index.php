@@ -40,7 +40,7 @@
                 <div class="container slider-text">
                     <div class="row">
                         <div class="col-12 col-md-6 text-center text-md-left mb-0 mb-md-5">
-                            <h1 class="main-font slider-heading">Sustainable & Ethical <span class="d-block">Promoting conflict-free and eco-friendly diamonds.</span></h1>
+                            <h1 class="main-font slider-heading">Sustainable & Ethical <span class="d-block">Promoting conflict-free and eco-friendly diamonds</span></h1>
                             <!-- <p class="alt-font slider-para py-2">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
                             <!-- <a href="#about" class="scroll btn button btn-medium btn-rounded btn-white mb-5">LEARN MORE</a> -->
                         </div>
@@ -56,8 +56,9 @@
     <ul class="social-icons social-icons-simple revicon white d-none d-lg-block">
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-facebook-f"></i> </a> </li>
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-x-twitter"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-linkedin-in"></i> </a> </li>
+        <!-- <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-linkedin-in"></i> </a> </li> -->
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-instagram"></i> </a> </li>
+        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-pinterest-p"></i> </a> </li>
     </ul>
 </section>
 <!-- End Slider Section-->
@@ -108,7 +109,7 @@
             <!-- Image Second (Right Side) -->
             <div class="col-lg-6 col-md-6 wow fadeInRight d-flex justify-content-center align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="reviews-img">
-                    <img src="assets/images/portrait1.png" alt="Testimonial">
+                    <img src="assets/images/about2.png" alt="Testimonial">
                 </div>
             </div>
 
@@ -122,7 +123,7 @@
 
 
 <!-- Start Menu Section -->
-<section class="menu portfolio-three pb-0" style="padding: 1.5rem 0 7.5rem 0">
+<section class="menu portfolio-three pb-0" style="padding: 1.5rem 0 7.5rem 0" id="explore">
     <!-- <div class="container">
         <div class="row">
             <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
@@ -140,14 +141,14 @@
             <!-- Menu Item 1 -->
             <div class="col-md-2 items web">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-1.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-1.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/s2.png" data-fancybox="images">
+                        <img src="assets/images/s2.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -155,14 +156,14 @@
             <!-- Menu Item 2 -->
             <div class="col-md-8 items web">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-2.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-2.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/gmain2.png" data-fancybox="images">
+                        <img src="assets/images/gmain2.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -170,14 +171,14 @@
             <!-- Menu Item 3 -->
             <div class="col-md-2 items web">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-3.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-3.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/s3.png" data-fancybox="images">
+                        <img src="assets/images/s3.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -185,14 +186,14 @@
             <!-- Menu Item 4 -->
             <div class="col-md-3 items graphic brand">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-4.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-4.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g1.png" data-fancybox="images">
+                        <img src="assets/images/g1.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -200,14 +201,14 @@
             <!-- Menu Item 5 -->
             <div class="col-md-3 items brand">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-5.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-5.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g2.png" data-fancybox="images">
+                        <img src="assets/images/g2.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Creamy Coffee</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -215,14 +216,14 @@
             <!-- Menu Item 6 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-6.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-6.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g3.png" data-fancybox="images">
+                        <img src="assets/images/g3.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -230,14 +231,14 @@
             <!-- Menu Item 7 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-7.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-7.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g4.png" data-fancybox="images">
+                        <img src="assets/images/g4.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -245,14 +246,14 @@
             <!-- Menu Item 8 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-8.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-8.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g5.png" data-fancybox="images">
+                        <img src="assets/images/g5.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -260,14 +261,14 @@
             <!-- Menu Item 9 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-9.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-9.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g6.png" data-fancybox="images">
+                        <img src="assets/images/g6.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -275,14 +276,14 @@
             <!-- Menu Item 10 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-10.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-10.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g7.png" data-fancybox="images">
+                        <img src="assets/images/g7.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -290,14 +291,14 @@
             <!-- Menu Item 11 -->
             <div class="col-md-3 items graphic">
                 <div class="item-img">
-                    <a href="assets/images/gallery-img-11.jpg" data-fancybox="images">
-                        <img src="assets/images/gallery-img-11.jpg" alt="image">
-                        <div class="item-img-overlay valign">
+                    <a href="assets/images/g8.png" data-fancybox="images">
+                        <img src="assets/images/g8.png" alt="image">
+                        <!-- <div class="item-img-overlay valign">
                             <div class="overlay-info text-center">
                                 <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
                                 <h5 class="text-white">Coffee Cup</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
             </div>
@@ -350,7 +351,7 @@
             <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                 <!-- App Image -->
                 <div class="app-image">
-                    <img src="assets/images/why2.jpg" alt="image">
+                    <img src="assets/images/whyus.png" alt="image">
                 </div>
             </div>
             <!-- Services 4,5,6 -->
@@ -384,55 +385,7 @@
 
 
 
-<!-- Start Blog Section -->
-<section class="blog py-5" id="blogs">
-    <div class="container">
-        <div class="row mb-4">
-            <div class="col-12 text-center">
-                <h2 class="main-font text-white">Latest Blogs</h2>
-                <p class="text-white">Check out our recent blog posts</p>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Blog Card 1 -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card blog-card h-100">
-                    <div class="img-wrapper">
-                        <img src="./assets/images/gallery-img-7.jpg" class="card-img-top" alt="Coffee Blog Image 1">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: black; ">Coffee & Creativity</h5>
-                        <a href="blog-detail.php?id=1" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Repeat for Blog Card 2 and 3 -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card blog-card h-100">
-                    <div class="img-wrapper">
-                        <img src="./assets/images/gallery-img-8.jpg" class="card-img-top" alt="Coffee Blog Image 2">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: black; ">Top 5 Coffee Recipes</h5>
-                        <a href="blog-detail.php?id=2" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card blog-card h-100">
-                    <div class="img-wrapper">
-                        <img src="./assets/images/gallery-img-9.jpg" class="card-img-top" alt="Coffee Blog Image 3">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: black; ">Why Coffee is a Mood</h5>
-                        <a href="blog-detail.php?id=3" class="btn btn-outline-dark btn-sm" style="border-radius: 30px">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Blog Section -->
+
 
 
 
@@ -461,15 +414,15 @@
                     </div>
                     <!-- Email Field -->
                     <div class="form-group">
-                        <input class="form-control" type="email" placeholder="Email" required="" id="your_email" name="userEmail">
+                        <input class="form-control" type="email" placeholder="Email Address" required="" id="your_email" name="userEmail">
                     </div>
                     <!-- Contact Field -->
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Contact" required="" id="your_contact" name="contact">
+                        <input class="form-control" type="text" placeholder="Phone Number" required="" id="your_contact" name="contact">
                     </div>
                     <!-- Message Field -->
                     <div class="form-group">
-                        <textarea class="form-control" placeholder="Coffee Details" id="message" name="userMessage"></textarea>
+                        <textarea class="form-control" placeholder="Your Message" id="message" name="userMessage"></textarea>
                     </div>
                     <!--Button-->
                     <a href="javascript:void(0);" id="submit_btn" class="contact_btn btn button btn-medium btn-rounded btn-grey w-100 d-block mt-5">Send Message</a>
