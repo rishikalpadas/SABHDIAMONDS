@@ -69,319 +69,296 @@
 <!-- Start About Section-->
 
 
-<section class="reviews" id="about" style="padding-bottom: 0">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Image -->
-            <div class="col-lg-6 col-md-6 wow fadeInLeft pt-5 pt-md-0 d-flex justify-content-center align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="reviews-img">
-                    <img src="assets/images/portrait1.png" alt="Testimonial">
-                </div>
-            </div>
-            <!-- Content -->
-            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="heading-area text-center">
-                    <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
-                    <h2 class="title main-font text-main my-4">About Us</h2>
-                </div>
-                <p>SABHDIAMOND was founded with a vision to provide high-quality, lab-grown diamonds at the most competitive prices in the market. With deep expertise in sourcing, cutting, and grading, we ensure that every diamond we offer meets the highest standards of brilliance, clarity, and purity. </p>
-
-            </div>
+<!-- First About Section with Parallax and Animation -->
+<section class="about-section luxury-section" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Animated Image Column -->
+      <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
+        <div class="portrait-container">
+          <div class="portrait-frame">
+            <img src="assets/images/portrait1.png" alt="Founder" class="portrait-image">
+            <div class="shine-effect"></div>
+          </div>
+          <div class="floating-diamond diamond-1"></div>
+          <div class="floating-diamond diamond-2"></div>
+          <div class="floating-diamond diamond-3"></div>
         </div>
+      </div>
+      
+      <!-- Content Column with Elegant Typography -->
+      <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".5s">
+        <div class="about-content">
+          <div class="elegant-divider">
+            <span class="diamond-icon"></span>
+          </div>
+          <h2 class="luxury-heading">Our <span class="highlight">Legacy</span></h2>
+          <p class="luxury-text">
+            SABHDIAMOND was founded with a vision to redefine luxury through innovation. Our passionate experts curate only the finest lab-grown diamonds, each one a masterpiece of brilliance, clarity, and ethical craftsmanship.
+          </p>
+          <p class="luxury-text">
+            With decades of expertise in sourcing, cutting, and grading, we ensure that every diamond in our collection stands as a testament to uncompromising quality and exceptional value.
+          </p>
+          <div class="signature-block">
+            <div class="signature-line"></div>
+            <span class="founder-name">Established 2015</span>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="reviews" id="about" style="padding-top: 0">
-    <div class="container">
-        <div class="row align-items-center">
-
-            <!-- Text First (Left Side) -->
-            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="heading-area text-center">
-                    <div class="mb-4"><img src="assets/images/gallery-border.png" alt="About-line"></div>
-                    <h2 class="title main-font text-main my-4">Lab-grown Diamonds</h2>
-                </div>
-                <p>
-                    Lab-grown diamonds are scientifically identical to mined diamonds, possessing the same physical, chemical, and optical properties. This material delivers both durability and sheen through its price-competitive and long-lasting characteristics when compared to natural diamonds. Specialized advanced laboratories generate diamonds by employing the CVD and HPHT production methods, which produce ethical diamonds free from mining-related environmental concerns and conflict issues.
-                </p>
-            </div>
-
-            <!-- Image Second (Right Side) -->
-            <div class="col-lg-6 col-md-6 wow fadeInRight d-flex justify-content-center align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
-                <div class="reviews-img">
-                    <img src="assets/images/about2.png" alt="Testimonial">
-                </div>
-            </div>
-
+<!-- Second About Section with Modern Layout -->
+<section class="lab-grown-section luxury-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Content Column -->
+      <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".3s">
+        <div class="about-content">
+          <div class="elegant-divider">
+            <span class="diamond-icon"></span>
+          </div>
+          <h2 class="luxury-heading">Lab-grown <span class="highlight">Excellence</span></h2>
+          <ul class="diamond-features">
+            <li>
+              <span class="feature-icon"><i class="fas fa-gem"></i></span>
+              <div class="feature-text">
+                <h4>Scientifically Identical</h4>
+                <p>Same physical, chemical, and optical properties as mined diamonds</p>
+              </div>
+            </li>
+            <li>
+              <span class="feature-icon"><i class="fas fa-award"></i></span>
+              <div class="feature-text">
+                <h4>Ethical Choice</h4>
+                <p>Free from mining-related environmental concerns and conflict issues</p>
+              </div>
+            </li>
+            <li>
+              <span class="feature-icon"><i class="fas fa-star"></i></span>
+              <div class="feature-text">
+                <h4>Advanced Technology</h4>
+                <p>Created using CVD and HPHT production methods in specialized laboratories</p>
+              </div>
+            </li>
+          </ul>
+          <a href="#explore" class="luxury-button">Discover Our Collection</a>
         </div>
+      </div>
+      
+      <!-- Animated Image Column -->
+      <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".5s">
+        <div class="diamond-showcase">
+          <div class="diamond-image-container">
+            <img src="assets/images/about2.png" alt="Lab-grown Diamond" class="diamond-feature-image">
+            <div class="diamond-overlay"></div>
+          </div>
+          <div class="rotating-sparkles">
+            <div class="sparkle s1"></div>
+            <div class="sparkle s2"></div>
+            <div class="sparkle s3"></div>
+            <div class="sparkle s4"></div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
 <!-- End About Section-->
 
+<section class="comparison-section">
+  <h2 class="comparison-heading">Natural vs Lab-Grown Diamonds</h2>
+  <div class="comparison-table">
+    <div class="column-header">Natural Diamonds</div>
+    <div class="column-header">Lab-Grown Diamonds</div>
+
+    <div class="cell">Formed over billions of years underground</div>
+    <div class="cell">Grown in labs within weeks using technology</div>
+
+    <div class="cell">Rare and mined from the earth</div>
+    <div class="cell">More abundant and ethically sourced</div>
+
+    <div class="cell">Higher cost due to rarity and mining process</div>
+    <div class="cell">30-40% cheaper with identical properties</div>
+
+    <div class="cell">Environmental and ethical concerns</div>
+    <div class="cell">Eco-friendly and conflict-free</div>
+
+    <div class="cell">Often comes with natural inclusions</div>
+    <div class="cell">Controlled clarity and fewer inclusions</div>
+
+    <div class="cell">Certified by GIA or IGI</div>
+    <div class="cell">Also IGI & GIA certified</div>
+  </div>
+</section>
 
 
-<!-- Start Menu Section -->
-<section class="menu portfolio-three pb-0" style="padding: 1.5rem 0 7.5rem 0" id="explore">
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="heading-area d-inline-block">
-                    <div class="mb-4"><img src="assets/images/gallery-border.png" alt="Border"></div>
-                    <h6 class="sub-title alt-font text-sec">Top quality coffee</h6>
-                    <h2 class="title main-font text-main my-4">Our Coffee Menu</h2>
-                    <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p>
+<!-- <h2 class="text-center">Lose yourself in the spark of best quality diamonds by Sabh Diamonds</h2> -->
+<div class="gallery-container" id="gallery">
+  <div class="gallery-item">
+    <img src="assets/images/g1.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Blue Sapphire</h3>
+      <p>3.2 Carats | VS Clarity | Brilliant Cut</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g2.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Royal Sapphire</h3>
+      <p>4.5 Carats | VVS1 Clarity | Emerald Cut</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g3.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Diamond Earrings</h3>
+      <p>2.8 Carats Total | F Color | Cushion Cut</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g4.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Blue Topaz Collection</h3>
+      <p>Various Sizes | AAA Quality | Mixed Cuts</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g5.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Pink Diamond</h3>
+      <p>2.1 Carats | Rare Fancy | Pear Cut</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g6.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>White Diamond</h3>
+      <p>5.0 Carats | D Color | Round Brilliant</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g7.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Emerald Collection</h3>
+      <p>3.7 Carats | Colombian | Step Cut</p>
+    </div>
+  </div>
+  <div class="gallery-item">
+    <img src="assets/images/g8.png" class="gallery-image" onclick="handleClick(this)">
+    <div class="diamond-info">
+      <h3>Purple Amethyst</h3>
+      <p>6.2 Carats | Deep Purple | Oval Cut</p>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">×</span>
+  <img id="lightbox-img" src="">
+  <div id="lightbox-info" class="lightbox-info"></div>
+</div>
+
+<section class="saabh_why_choose_section">
+    <div class="saabh_container">
+        <!-- Section Header -->
+        <div class="saabh_section_header">
+            <div class="saabh_diamond_divider">
+                <span class="saabh_diamond_icon">♦</span>
+            </div>
+            <h2 class="saabh_section_title">Why Choose Us?</h2>
+        </div>
+        
+        <!-- Features Grid -->
+        <div class="saabh_features_grid">
+            <!-- Feature 1 -->
+            <div class="saabh_feature_card">
+                <div class="saabh_feature_inner">
+                    <div class="saabh_feature_icon_wrap">
+                        <div class="saabh_feature_icon">
+                            <svg class="saabh_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12,0L8,8L0,9.5L6,16.5L5,24L12,21L19,24L18,16.5L24,9.5L16,8Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="saabh_feature_content">
+                        <h3 class="saabh_feature_title">Lowest Prices Guaranteed</h3>
+                        <p class="saabh_feature_text">Direct supplier with no middlemen, ensuring unmatched value for premium quality diamonds.</p>
+                    </div>
+                    <div class="saabh_feature_shine"></div>
+                </div>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="saabh_feature_card">
+                <div class="saabh_feature_inner">
+                    <div class="saabh_feature_icon_wrap">
+                        <div class="saabh_feature_icon">
+                            <svg class="saabh_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12,2L15.09,8.26L22,9.27L17,14.14L18.18,21.02L12,17.77L5.82,21.02L7,14.14L2,9.27L8.91,8.26L12,2Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="saabh_feature_content">
+                        <h3 class="saabh_feature_title">Certified Quality</h3>
+                        <p class="saabh_feature_text">Every diamond passes rigorous verification with full IGI & GIA certification for complete peace of mind.</p>
+                    </div>
+                    <div class="saabh_feature_shine"></div>
+                </div>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="saabh_feature_card">
+                <div class="saabh_feature_inner">
+                    <div class="saabh_feature_icon_wrap">
+                        <div class="saabh_feature_icon">
+                            <svg class="saabh_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5,3L9,3L13.5,13.5L19.5,6L21,7.5L13.5,16L9,5L5,5L5,3Z"/>
+                                <path d="M10,3L12,3L12.5,5L14.5,7.25L13.5,9L11,5L10,5L10,3Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="saabh_feature_content">
+                        <h3 class="saabh_feature_title">Custom Sizing & Cuts</h3>
+                        <p class="saabh_feature_text">Bespoke diamond creation tailored to your exact specifications with expert craftsmanship.</p>
+                    </div>
+                    <div class="saabh_feature_shine"></div>
+                </div>
+            </div>
+            
+            <!-- Feature 4 -->
+            <div class="saabh_feature_card">
+                <div class="saabh_feature_inner">
+                    <div class="saabh_feature_icon_wrap">
+                        <div class="saabh_feature_icon">
+                            <svg class="saabh_icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12,2C14.2,2 16,3.8 16,6C16,8.2 14.2,10 12,10S8,8.2 8,6C8,3.8 9.8,2 12,2M9,11.17V16H15V11.17C13.8,11.7 12.93,12 12,12C11.07,12 10.2,11.7 9,11.17Z"/>
+                                <path d="M2.46,14.22L4.59,16.35C6.7,14.7 9.23,13.56 12,13.56C14.77,13.56 17.3,14.7 19.41,16.35L21.54,14.22C19.09,12.12 15.66,10.56 12,10.56C8.34,10.56 4.91,12.12 2.46,14.22Z"/>
+                                <path d="M12,18C14.2,18 16,19.8 16,22H8C8,19.8 9.8,18 12,18Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="saabh_feature_content">
+                        <h3 class="saabh_feature_title">Ethical & Sustainable</h3>
+                        <p class="saabh_feature_text">Environmentally conscious lab-grown diamonds that are 100% conflict-free and ethically sourced.</p>
+                    </div>
+                    <div class="saabh_feature_shine"></div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <div class="container-fluid">
-        <div class="row m-0">
-            <!-- Menu Item 1 -->
-            <div class="col-md-2 items web">
-                <div class="item-img">
-                    <a href="assets/images/s2.png" data-fancybox="images">
-                        <img src="assets/images/s2.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 2 -->
-            <div class="col-md-8 items web">
-                <div class="item-img">
-                    <a href="assets/images/gmain2.png" data-fancybox="images">
-                        <img src="assets/images/gmain2.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 3 -->
-            <div class="col-md-2 items web">
-                <div class="item-img">
-                    <a href="assets/images/s3.png" data-fancybox="images">
-                        <img src="assets/images/s3.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 4 -->
-            <div class="col-md-3 items graphic brand">
-                <div class="item-img">
-                    <a href="assets/images/g1.png" data-fancybox="images">
-                        <img src="assets/images/g1.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 5 -->
-            <div class="col-md-3 items brand">
-                <div class="item-img">
-                    <a href="assets/images/g2.png" data-fancybox="images">
-                        <img src="assets/images/g2.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Creamy Coffee</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 6 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g3.png" data-fancybox="images">
-                        <img src="assets/images/g3.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 7 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g4.png" data-fancybox="images">
-                        <img src="assets/images/g4.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 8 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g5.png" data-fancybox="images">
-                        <img src="assets/images/g5.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 9 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g6.png" data-fancybox="images">
-                        <img src="assets/images/g6.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 10 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g7.png" data-fancybox="images">
-                        <img src="assets/images/g7.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <!-- Menu Item 11 -->
-            <div class="col-md-3 items graphic">
-                <div class="item-img">
-                    <a href="assets/images/g8.png" data-fancybox="images">
-                        <img src="assets/images/g8.png" alt="image">
-                        <!-- <div class="item-img-overlay valign">
-                            <div class="overlay-info text-center">
-                                <span class="image-hover mb-3"><i class="lni-coffee-cup"></i></span>
-                                <h5 class="text-white">Coffee Cup</h5>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-            </div>
+        
+        <!-- CTA Button -->
+        <div class="saabh_cta_wrapper">
+            <a href="#collection" class="saabh_cta_button">
+                <span class="saabh_cta_text">Discover Our Collection</span>
+                <span class="saabh_cta_arrow">→</span>
+            </a>
         </div>
     </div>
 </section>
-<!-- End Menu Section -->
-
-<!-- Start About Section -->
-<section class="about">
-    <div class="container">
-        <!--Heading-->
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="heading-area d-inline-block">
-                    <div class="mb-4"><img src="assets/images/about-border.png" alt="About-line"></div>
-                    <!-- <h6 class="sub-title alt-font text-sec">Why Choose Us?</h6> -->
-                    <h2 class="title main-font text-main my-4">Why Choose Us?</h2>
-                    <!-- <p class="paragraph alt-font text-sec">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.</p> -->
-                </div>
-            </div>
-        </div>
-        <!-- App Detail -->
-        <div class="row align-items-center">
-            <!-- Services 1,2,3 -->
-            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-diamonds-1"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Lowest Prices Guaranteed</h4>
-                        <p>Direct supplier, no middlemen.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-diamonds-1"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Certified Quality</h4>
-                        <p>IGI & GIA-certified lab-grown diamonds.</p>
-                    </div>
-                </div>
-                
-            </div>
-            <!-- App Slier -->
-            <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                <!-- App Image -->
-                <div class="app-image">
-                    <img src="assets/images/whyus.png" alt="image">
-                </div>
-            </div>
-            <!-- Services 4,5,6 -->
-            <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-diamonds-1"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Custom Sizing & Cuts</h4>
-                        <p>Tailored to your exact requirements.</p>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="row app-feature">
-                    <div class="col-12 col-lg-2 p-lg-0">
-                        <i class="lni lni-diamonds-1"></i>
-                    </div>
-                    <div class="col-12 col-lg-10 p-lg-0">
-                        <h4 class="mb-3">Ethical & Sustainable</h4>
-                        <p>Eco-friendly and conflict-free diamonds.</p>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End About Section -->
 
 
 
