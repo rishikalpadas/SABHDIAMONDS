@@ -40,7 +40,7 @@
 <script src="assets/js/script.js"></script>
 
 <script>
-   const gallery = document.getElementById('gallery');
+    const gallery = document.getElementById('gallery');
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxInfo = document.getElementById('lightbox-info');
@@ -62,18 +62,18 @@
                 // If we're at the end, prepare for seamless loop
                 if (!isScrolling) {
                     isScrolling = true;
-                    
+
                     // First complete the scroll to the end with animation
                     gallery.scrollTo({
                         left: gallery.scrollWidth - gallery.clientWidth,
                         behavior: 'smooth'
                     });
-                    
+
                     // Then after the animation completes, instantly jump to start
                     setTimeout(() => {
                         gallery.scrollTo({
                             left: 0,
-                            behavior: 'auto'  // Instant jump, no animation
+                            behavior: 'auto' // Instant jump, no animation
                         });
                         isScrolling = false;
                     }, 500); // Timed to match the smooth scroll duration
@@ -109,7 +109,7 @@
         lightboxImg.src = img.src;
         lightboxInfo.innerHTML = '';
         lightboxInfo.appendChild(infoElement);
-        
+
         lightbox.style.display = 'flex';
         setTimeout(() => {
             lightbox.classList.add('active');
@@ -176,86 +176,86 @@
 </script>
 
 <script>
-  // You may need to add this if you don't already have FontAwesome in your project
-  document.addEventListener('DOMContentLoaded', function() {
-    const fontAwesome = document.createElement('link');
-    fontAwesome.rel = 'stylesheet';
-    fontAwesome.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css';
-    document.head.appendChild(fontAwesome);
-    
-    // Add Playfair Display font if needed
-    const playfairFont = document.createElement('link');
-    playfairFont.rel = 'stylesheet';
-    playfairFont.href = 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap';
-    document.head.appendChild(playfairFont);
-  });
+    // You may need to add this if you don't already have FontAwesome in your project
+    document.addEventListener('DOMContentLoaded', function() {
+        const fontAwesome = document.createElement('link');
+        fontAwesome.rel = 'stylesheet';
+        fontAwesome.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css';
+        document.head.appendChild(fontAwesome);
+
+        // Add Playfair Display font if needed
+        const playfairFont = document.createElement('link');
+        playfairFont.rel = 'stylesheet';
+        playfairFont.href = 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap';
+        document.head.appendChild(playfairFont);
+    });
 </script>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-    // Initialize animation on scroll
-    const saabhFeatureCards = document.querySelectorAll('.saabh_feature_card');
-    
-    // Initial state - set opacity to 0 and translateY
-    saabhFeatureCards.forEach((card, index) => {
-        card.style.opacity = "0";
-        card.style.transform = "translateY(30px)";
-        card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-        card.style.transitionDelay = (index * 0.15) + "s";
-    });
-    
-    // Animation on scroll function
-    function animateOnScroll() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const windowHeight = window.innerHeight;
-        
-        saabhFeatureCards.forEach(card => {
-            const cardTop = card.getBoundingClientRect().top + scrollTop;
-            
-            if (scrollTop + windowHeight > cardTop + 100) {
-                card.style.opacity = "1";
-                card.style.transform = "translateY(0)";
-            }
+        // Initialize animation on scroll
+        const saabhFeatureCards = document.querySelectorAll('.saabh_feature_card');
+
+        // Initial state - set opacity to 0 and translateY
+        saabhFeatureCards.forEach((card, index) => {
+            card.style.opacity = "0";
+            card.style.transform = "translateY(30px)";
+            card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+            card.style.transitionDelay = (index * 0.15) + "s";
         });
-    }
-    
-    // Run animation on page load
-    setTimeout(animateOnScroll, 300);
-    
-    // Run animation on scroll
-    window.addEventListener('scroll', animateOnScroll);
-    
-    // Diamond shine effect
-    const diamondIcon = document.querySelector('.saabh_diamond_icon');
-    
-    function animateDiamond() {
-        diamondIcon.style.transition = "transform 0.3s ease, opacity 0.3s ease";
-        diamondIcon.style.transform = "translate(-50%, -50%) scale(1.3)";
-        diamondIcon.style.opacity = "0.7";
-        
-        setTimeout(() => {
-            diamondIcon.style.transform = "translate(-50%, -50%) scale(1)";
-            diamondIcon.style.opacity = "1";
-        }, 300);
-    }
-    
-    // Pulse the diamond icon every 3 seconds
-    setInterval(animateDiamond, 3000);
-    
-    // Add hover effect to feature cards for mobile devices
-    if (window.innerWidth < 768) {
-        saabhFeatureCards.forEach(card => {
-            card.addEventListener('touchstart', function() {
-                this.classList.add('saabh_touch_hover');
-                
-                // Remove the class after animation completes
-                setTimeout(() => {
-                    this.classList.remove('saabh_touch_hover');
-                }, 1000);
+
+        // Animation on scroll function
+        function animateOnScroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const windowHeight = window.innerHeight;
+
+            saabhFeatureCards.forEach(card => {
+                const cardTop = card.getBoundingClientRect().top + scrollTop;
+
+                if (scrollTop + windowHeight > cardTop + 100) {
+                    card.style.opacity = "1";
+                    card.style.transform = "translateY(0)";
+                }
             });
-        });
-    }
-});
+        }
+
+        // Run animation on page load
+        setTimeout(animateOnScroll, 300);
+
+        // Run animation on scroll
+        window.addEventListener('scroll', animateOnScroll);
+
+        // Diamond shine effect
+        const diamondIcon = document.querySelector('.saabh_diamond_icon');
+
+        function animateDiamond() {
+            diamondIcon.style.transition = "transform 0.3s ease, opacity 0.3s ease";
+            diamondIcon.style.transform = "translate(-50%, -50%) scale(1.3)";
+            diamondIcon.style.opacity = "0.7";
+
+            setTimeout(() => {
+                diamondIcon.style.transform = "translate(-50%, -50%) scale(1)";
+                diamondIcon.style.opacity = "1";
+            }, 300);
+        }
+
+        // Pulse the diamond icon every 3 seconds
+        setInterval(animateDiamond, 3000);
+
+        // Add hover effect to feature cards for mobile devices
+        if (window.innerWidth < 768) {
+            saabhFeatureCards.forEach(card => {
+                card.addEventListener('touchstart', function() {
+                    this.classList.add('saabh_touch_hover');
+
+                    // Remove the class after animation completes
+                    setTimeout(() => {
+                        this.classList.remove('saabh_touch_hover');
+                    }, 1000);
+                });
+            });
+        }
+    });
 </script>
 </body>
 
